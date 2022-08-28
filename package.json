@@ -1,0 +1,22 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "TDD in UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webor/tdd_demo.git"
+  },
+  "keywords": [
+    "tdd_demo"
+  ],
+  "author": "vibhorTambat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webor/tdd_demo/issues"
+  },
+  "homepage": "https://github.com/webor/tdd_demo#readme"
+}
