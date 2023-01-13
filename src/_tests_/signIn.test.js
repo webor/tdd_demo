@@ -29,7 +29,7 @@ describe('signin tests', () => {
         expect(submitBtn).toBeInTheDocument();
     });
 
-    it('username/password cannot be empty', () => {
+    it('form captures accurate data upon submit', () => {
         const { username, password, submitBtn, handleSubmit } = initializeLogin();
         userEvent.type(username, 'john');
         userEvent.type(password, 'Abc@123');
